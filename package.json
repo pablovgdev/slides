@@ -10,8 +10,9 @@
 	},
 	"author": "",
 	"license": "ISC",
-	"dependencies": {
+	"devDependencies": {
+		"zx": "^7.2.1",
 		"@marp-team/marp-cli": "^2.5.0",
-		"zx": "^7.2.1"
+		"husky": "^8.0.3"
 	}
 }

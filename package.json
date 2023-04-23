@@ -4,8 +4,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "PORT=3000 marp -s markdown",
-		"build": "marp markdown"
+		"start": "PORT=3000 marp -s ./markdown",
+		"build": "marp ./markdown"
 	},
 	"author": "",
 	"license": "ISC",

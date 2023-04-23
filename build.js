@@ -12,7 +12,7 @@ const walk = async (dirPath) =>
 	);
 
 const toHtml = (path) =>
-	path.replace("markdown", "public").replace(".md", ".html");
+	path.replace("markdown", "public").replace(".md", "/index.html");
 
 const toDir = (path) =>
 	path.replace("markdown", "public").split("/").slice(0, -1).join("/");

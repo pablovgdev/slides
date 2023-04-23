@@ -8,7 +8,7 @@
 	},
 	"author": "",
 	"license": "ISC",
-	"devDependencies": {
+	"dependencies": {
 		"@marp-team/marp-cli": "^2.5.0"
 	}
 }

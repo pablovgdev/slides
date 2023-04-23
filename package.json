@@ -1,15 +1,16 @@
 {
 	"name": "slides",
+	"type": "module",
 	"version": "1.0.0",
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "PORT=3000 marp -s ./markdown",
-		"build": "marp ./markdown"
+		"start": "PORT=3000 marp -s ./markdown"
 	},
 	"author": "",
 	"license": "ISC",
 	"dependencies": {
-		"@marp-team/marp-cli": "^2.5.0"
+		"@marp-team/marp-cli": "^2.5.0",
+		"zx": "^7.2.1"
 	}
 }

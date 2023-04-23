@@ -5,7 +5,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"start": "PORT=3000 marp -s ./markdown"
+		"start": "PORT=3000 marp -s ./markdown",
+		"build": "zx build.js"
 	},
 	"author": "",
 	"license": "ISC",
